@@ -1,11 +1,9 @@
-const knex = require('knex')({
+module.exports = {
   client: 'mysql',
   connection: {
-    host : '127.0.0.1',
-    user : 'nodeApp',
-    password : 'nodeApp1@',
+    host     : 'localhost',
+    user     : 'root',
+    password : 'anhday1997',
     database : 'text',
   }
-});
-
-module.exports = knex
+};
